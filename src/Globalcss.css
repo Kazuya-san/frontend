@@ -1,0 +1,466 @@
+.tagsmenu
+{
+    width: 77%;
+    max-height: 100px;
+    float: left;
+    overflow-y: hidden;
+    box-shadow: inset 0px 0px 20px #0b1434;
+    border-radius: 10px;
+    margin: 8px 14px;
+    padding: 6px 15px;
+}
+
+.tagsmenu ul
+{
+ margin: 0px;
+ padding: 0px;
+}
+
+.tagsmenu ul li
+{
+    float: left;
+    list-style: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid #1a73e1;
+    font-size: 12px;
+    padding: 5px 7px;
+    margin: 2px 3px;
+}
+
+.tagsmenu ul li:hover
+{
+    background-color: #1a73e1;
+    color: #fff;
+    cursor: pointer;
+}
+body
+{
+    background: #0b2167;
+   
+    height: 100vh;
+
+}
+
+/* Home header */
+
+.headerlayout
+{
+    width: 90%;
+    float: left;
+    margin: 2% 5%;
+    border-radius: 10px;
+    box-shadow: -1px 0px 9px #0b1434;
+}
+
+
+
+.featured
+{
+ width: 100%;
+ float: left;
+}
+
+.featured ul{
+    margin: 0px 5%;
+    padding: 0px;
+    list-style: none;
+
+}
+
+.featured ul li
+{
+    float: left;
+    width: 150px;
+   
+    overflow: hidden;
+}
+
+.featured li img{
+   
+    border-radius: 10px;
+    width: 140px
+}
+
+.Footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    z-index: 999999;
+    background: #0456b5;
+}
+
+.Footer ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+}
+
+.Footer ul li
+{
+    list-style: none;
+    float: left;
+    line-height: 60px;
+    min-width: 20%;
+}
+
+.Footer Link
+{
+    color:#fff;
+    font-size: 14px;
+}
+
+
+.featured h1{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 5%;
+    text-transform: uppercase;
+}
+
+.bqyzQp {
+    position: relative;
+    margin: 0 44px;
+}
+
+.circlein
+{
+    margin: 7px;
+}
+
+.circlein img
+{
+    border-radius: 100px;
+}
+
+.circleinspan{
+    position: absolute;
+    line-height: 140px;
+    width: 140px;
+    color: #fff;
+    text-align: center;
+    height: 140px;
+    background: #000000bf;
+    border-radius: 100px;
+    opacity: 0;
+}
+
+.circlein:hover .circleinspan
+{
+    opacity: 1;
+    cursor: pointer;
+} 
+
+.Homecontent
+{
+    border:solid 5px #183484;
+    border-radius: 10px;
+    margin: 5%;
+    float: left;
+    background-color: #0d2c7c;
+}
+
+.Homecontent h1{
+    color: #fff;
+    font-size: 18px;
+    padding: 0% 3%;
+    text-transform: uppercase;
+}
+
+
+.Homecontent p{
+    color: #fff;
+    font-size: 15px;
+    padding: 0% 3% 2% 3%;
+}
+
+.contentall {
+    border:solid 5px #183484;
+    border-radius: 10px;
+    margin: 1% 5% 10% 5%;
+    float: left;
+    background-color: #0d2c7c;
+}
+
+.contentall h1{
+    color: #fff;
+    font-size: 18px;
+    padding: 0% 3%;
+    text-transform: uppercase;
+}
+
+
+.contentall p{
+    color: #fff;
+    font-size: 15px;
+    padding: 0% 3% 2% 3%;
+}
+
+.tagslists
+{
+    width: 100%;
+    float: left;
+}
+
+.tagslists h1{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 5%;
+    text-transform: uppercase;
+}
+
+.tagslists ul
+{
+    margin: 0 5%;
+    padding: 0;
+    list-style: none;
+}
+
+.tagslists li {
+    float: left;
+    width: 140px;
+    margin: 2px;
+
+}
+
+.tagslists .span
+{
+    position: absolute;
+    line-height: 101px;
+    width: 140px;
+    color: #fff;
+    text-align: center;
+    /* height: 140px; */
+    background: #000000bf;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.tagimage1{
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+    max-height: 100px;
+    
+}
+
+.tagslists li:hover .span
+{
+    opacity: 1;
+    cursor: pointer;
+} 
+
+.gamebox
+{
+    margin: 0 4%;
+}
+
+
+
+.viewright
+{
+    width: 25%;
+    float: left;
+    max-height: 600px;
+    overflow: hidden;
+    margin-left: 5%;
+}
+
+
+.viewleft
+{
+    width: 70%;
+    float: left;
+
+}
+
+
+.viewright1 ul{
+    margin: 0px 0%;
+    padding: 0px;
+    list-style: none;
+
+}
+
+.viewright1 ul li
+{
+    float: left;
+    width: 155px;
+   
+    overflow: hidden;
+}
+
+.viewright1 li img{
+   
+    border-radius: 10px;
+    width: 140px
+}
+
+.playedgames
+{
+    width: 100%;
+    margin: 2% 0%;
+    float: left;
+    min-height: 300px;
+    padding-bottom: 5%;
+}
+
+.logo
+{
+    float: left;
+    width: 201px;
+    background-image: linear-gradient(to bottom,#1a73e1,#055abf 100%);
+    border-radius: 10px 60px 60px 10px;
+    height: 96px;
+    padding: 10px 30px;
+    line-height: 112px;
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 7px 3px 0 rgb(0 0 0 / 9%);
+}
+
+.Navgations
+{
+    width:5%;
+    float: left;
+    position: relative;
+    z-index: 888;
+}
+
+
+.Navgations a
+{
+    background-color: #1a73e1;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+    float: left;
+    padding: 3px 2px;
+    font-size: 5px;
+   
+  
+}
+.Navgations i
+{
+    float: right;
+    padding: 1px 7px;
+    font-size: 21px;
+}
+
+.Navgations .m1
+{
+    margin-left: -42px;
+    width: 72px;
+    margin-bottom: 3px;
+}
+
+.Navgations .m2
+{
+    margin-left: -4px;
+    width: 43px;
+    margin-bottom: 3px;
+}
+
+.Navgations .m3
+{
+    margin-left: -42px;
+    width: 72px;
+    margin-bottom: 3px;
+    padding: 4.3px 0;
+}
+
+.taglink
+{
+    background: #0a60c7;
+    height: 96px;
+    float: right;
+    border-radius: 0 5px 5px 0;
+    width: 50px;
+    color: #fff;
+}
+
+.taglink i{
+    background-color: #0b2167;
+    height: 73px;
+    box-shadow: inset 0px 0px 20px #0b1434;
+    width: 34px;
+    margin: 8px 0 0 7px;
+    line-height: 71px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.gamedetails
+{
+    border: solid 5px #183484;
+    border-radius: 10px;
+    margin: 5%;
+    float: left;
+    background-color: #0d2c7c;
+    width: 90%;
+    color: #fff;
+    padding:2% 3%;
+}
+
+
+
+.tagslistshome
+{
+    width: 100%;
+    float: left;
+}
+
+.tagslistshome h1{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 5%;
+    text-transform: uppercase;
+}
+
+.tagslistshome ul
+{
+    margin: 0 5%;
+    padding: 0;
+    list-style: none;
+}
+
+.tagslistshome li {
+    float: left;
+    width: 140px;
+    margin: 2px;
+
+}
+
+.tagslistshome .span
+{
+    position: absolute;
+    line-height: 101px;
+    width: 140px;
+    color: #fff;
+    text-align: center;
+    /* height: 140px; */
+    background: #000000bf;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.tagimage2{
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+    max-height: 100px;
+    
+}
+
+.tagslistshome li:hover .span
+{
+    opacity: 1;
+    cursor: pointer;
+} 
